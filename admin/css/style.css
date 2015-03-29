@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ 
+	background:snow;
+	font-family:"Segoe UI";
+}
+#container{
+	margin: 0 auto;
+	margin-top:5px;
+	padding-top:5px;
+	width: 1000px;
+	height:auto;
+}
+#isi{
+	margin: 0 auto;
+	height:auto;
+}
+#isi_kiri{
+	margin-top:0px;
+	font-size: 12px; 
+	height:auto;
+	width:200px;
+	float:left;
+	margin-right:2px;
+}
+#isi_kanan{
+	margin-left:5px; 
+	margin-top:2px;
+	height:580px;
+	width:793px;
+	border:1px solid silver;
+	border-bottom: none;
+	border-radius: 5px 5px 0px 0px;
+	float:left;
+	overflow:auto;	 
+}
+#isi_kanan h5{
+	font-family: Sego UI;
+	font-size:19px;
+	border-radius: 3px 3px 0px 0px;
+	margin-top: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	background: #0099FF ;
+	border-bottom: 1px solid #E0E0E0;
+	color: #FFF;
+}
+#halaman{
+	padding:5px;
+	font-family:Sego UI;
+	font-size:17px; 
+}
+.clear{
+	clear: both;
+	margin: 0;
+	padding:0;
+}
+#footer{
+	padding-top: 3px;
+	height:25px;
+	font-color:#FFF; 
+	text-align: center;
+	background: #09F;
+	border-radius: 0 0 3px 3px; 
+}
+
+.teks{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:12px;
+}
